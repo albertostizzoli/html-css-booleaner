@@ -1,25 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 /* inizio header */
 
-.container{
-    display: inline-block;
-    position: relative;
-}
-#image-1{
-    width: 220px;
-    height: 120px;
+header{
+    background-image: url("../img/pattern.png");
+    background-color: #4EA0FF;
+    padding-top: 40px;
+    background-size: 30%;
 }
 
+
 #logo{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    width: 350px;
 }
+   
 
 #paragraph{
     color: rgb(132, 128, 128);
@@ -53,6 +51,7 @@ ul{
 
 table{
     margin-top: 22px;
+    border-spacing: 0;
 }
 
 thead{
@@ -77,20 +76,25 @@ h3{
     margin-top: 20px;
 }
 
-footer{
-    position: relative;
+#monitor{
+    background-image: url("../img/monitor.jpg");
 }
 
-#image-2{
-    position: absolute;
-    left: 0;
-    top: 30px;
+#graph{
+    background-image: url("../img/graph.jpg");
 }
 
-#image-3{
-    position: absolute;
-    left: 0;
-    top: 250px;
+.text-white{
+    color: #ffffff;
+}
+
+.image{
+    width: 208px;
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* fine footer */
